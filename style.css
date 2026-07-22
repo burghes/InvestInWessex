@@ -141,13 +141,13 @@ section.tight{padding:64px 0;}
   background:var(--paper);
   padding:32px 28px;
   text-decoration:none;
-  color:inherit;
+  color:var(--ink);
   transition:background 0.2s ease;
 }
 .card:hover{background:var(--paper-dim);}
 .card .eyebrow{display:block; margin-bottom:12px;}
-.card h3{font-size:22px; margin-bottom:10px;}
-.card p{font-size:14.5px; color:var(--steel);}
+.card h3{font-size:22px; margin-bottom:10px; color:var(--ink);}
+.card p{font-size:14.5px; color:var(--steel) !important;}
 .card .arrow{
   display:inline-block; margin-top:16px;
   font-family:'IBM Plex Mono', monospace; font-size:12px;
